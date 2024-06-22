@@ -1,3 +1,5 @@
+//this is test code to make sure that vulkan is working properly
+
 #define GLFW_INCLUDE_VULKAN
 #define GLFW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>
