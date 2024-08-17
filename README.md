@@ -8,7 +8,12 @@ visit [the official vulkan tutorial site](https://vulkan-tutorial.com/Developmen
 
 You're first going to want to install all of these Vulkan packages and additional libraries.
 
-Fedora (my setup):
+Arch:
+```sh
+sudo pacman -S vulkan-devel glfw-wayland glm shaderc
+```
+
+Fedora:
 ```sh
 sudo dnf install vulkan-tools vulkan-loader-devel vulkan-validation-layers-devel glfw-devel glm-devel glslc
 ```
