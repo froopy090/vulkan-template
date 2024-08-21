@@ -10,7 +10,7 @@ You're first going to want to install all of these Vulkan packages and additiona
 
 Arch:
 ```sh
-sudo pacman -S vulkan-devel glfw-wayland glm shaderc
+sudo pacman -S vulkan-devel glfw-wayland glm shaderc libxi libxxf86vm
 ```
 
 Fedora:
